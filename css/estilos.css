@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Serif", serif;
+}
+
+body {
+  background-color: beige;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+login {
+  background-color: rgba(70, 70, 70, 0.5);
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+login input {
+  margin: 10px;
+  padding: 1vh;
+  border: 1px solid white;
+}
+
+login input:hover {
+  border-radius: 1em;
+  transition: linear 1s;
+  border: 1px solid black;
+}
+
+login label {
+  color: whitesmoke;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(70, 70, 70, 0.5);
+  height: 80px;
+  align-items: center;
+  width: 50%;
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 20px;
+}
+nav a:hover {
+  color: black;
+  text-shadow: 5px 5px 2px white;
+}
+
+.imagen {
+  height: 350px;
+  background-image: url("https://cdn.forbes.com.mx/2020/10/shutterstock_1206167314-res-640x360.jpg");
+  background-size: cover;
+}
+
+main h2 {
+  text-align: center;
+  color: whitesmoke;
+  background-color: grey;
+}
+
+.imagenes img {
+  height: 500px;
+  width: 100%;
+}
+.imagenes img:hover {
+    filter: grayscale(.6);
+  }
